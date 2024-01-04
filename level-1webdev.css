@@ -99,8 +99,15 @@ padding-left: 8px;
     width: 100vh;
     background-color: #ffffff;
     border-radius: 5px;
-    border: 1px solid violet;
+    border: 1px solid #4C5FD5;
+    box-shadow: 0px 15px 15px 0px #4C5FD5;
 }
+.input{
+    border: none;
+   height: 5vh; 
+   width: 100vh;
+}
+
 .arrow-img{
     width: 4vh;
     padding-right: 20px;
