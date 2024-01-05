@@ -129,38 +129,43 @@ padding-left: 8px;
     'a b'
     'c d'
     'e f';
+    gap: 10px;
 
 }
 .using-abstract{
-    
     grid-area: a;
+    padding-left: 30%;
 }
 .div-manage-your-account{
     grid-area: b;
+    padding-right: 30%;
 }
 .div-manage-org-team-projects{
     grid-area: c;
+    padding-left: 30%;
 }
 .div-manage-billing{
     grid-area: d;
+    padding-right: 30%;
 }
 .div-authanticate{
     grid-area: e;
+    padding-left: 30%;
 }
 .div-abstract-support{
     grid-area: f;
+    padding-right: 30%;
 }
 
  .div-abstract-support, .using-abstract,.div-manage-your-account,.div-manage-org-team-projects,.div-manage-billing,.div-authanticate{
-    
+    height: 120px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10px;
 }
 
 .content-img{
-    height: 120px;
-    width: 60px;
+    max-height: 80px; 
+    margin: 0px 30px 0px 0px;
 }
