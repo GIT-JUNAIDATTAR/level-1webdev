@@ -155,10 +155,12 @@ padding-left: 8px;
     
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
 .content-img{
     height: 120px;
-    
+    width: 60px;
 }
