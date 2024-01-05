@@ -129,36 +129,38 @@ padding-left: 8px;
     'a b'
     'c d'
     'e f';
-    gap: 10px;
+    gap: 10%;
+    padding-top: 13%;
+    padding-bottom: 13%;
 
 }
 .using-abstract{
     grid-area: a;
-    padding-left: 30%;
+    padding-left: 25%;
 }
 .div-manage-your-account{
     grid-area: b;
-    padding-right: 30%;
+    padding-right: 25%;
 }
 .div-manage-org-team-projects{
     grid-area: c;
-    padding-left: 30%;
+    padding-left: 25%;
 }
 .div-manage-billing{
     grid-area: d;
-    padding-right: 30%;
+    padding-right: 25%;
 }
 .div-authanticate{
     grid-area: e;
-    padding-left: 30%;
+    padding-left: 25%;
 }
 .div-abstract-support{
     grid-area: f;
-    padding-right: 30%;
+    padding-right: 25%;
 }
 
  .div-abstract-support, .using-abstract,.div-manage-your-account,.div-manage-org-team-projects,.div-manage-billing,.div-authanticate{
-    height: 120px;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -166,6 +168,20 @@ padding-left: 8px;
 }
 
 .content-img{
+    display: flex;
     max-height: 80px; 
     margin: 0px 30px 0px 0px;
+    justify-content: start;
+    
+}
+
+h4{
+    font-size: 25px;
+    color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{ color: #4C5FD5;}
+p,a{
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
