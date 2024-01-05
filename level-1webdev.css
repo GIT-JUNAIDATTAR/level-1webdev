@@ -198,3 +198,15 @@ p{
     padding-bottom: 5%;
     line-height: 25px;
 }
+
+/* footer start */
+
+.footer{
+    display: grid;
+    height: auto;
+    color: #dadbf1;
+    background-color: #000000;
+    grid-template-columns: 4,1fr;
+    grid-template-areas: 
+    'a b c d';
+}
