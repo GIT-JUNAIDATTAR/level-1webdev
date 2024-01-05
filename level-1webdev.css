@@ -123,14 +123,42 @@ padding-left: 8px;
 .content-div{
     display: grid;
     place-items: center;
+    grid-template-columns: repeat(2) 1fr;
+    grid-template-rows: 3,1fr;
+    grid-template-areas: 
+    'a b'
+    'c d'
+    'e f';
+
+}
+.using-abstract{
+    
+    grid-area: a;
+}
+.div-manage-your-account{
+    grid-area: b;
+}
+.div-manage-org-team-projects{
+    grid-area: c;
+}
+.div-manage-billing{
+    grid-area: d;
+}
+.div-authanticate{
+    grid-area: e;
+}
+.div-abstract-support{
+    grid-area: f;
 }
 
  .div-abstract-support, .using-abstract,.div-manage-your-account,.div-manage-org-team-projects,.div-manage-billing,.div-authanticate{
+    
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .content-img{
     height: 50px;
-    margin: 0px 0px 30px 0px;
+    
 }
