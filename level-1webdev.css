@@ -168,6 +168,7 @@ padding-left: 8px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 }
 
 .content-img{
@@ -176,8 +177,8 @@ padding-left: 8px;
 }
 
 .div-list-img{
-    display:flex;
-    justify-content: center;
+     display:flex;
+     margin-bottom: 60px;
 }
 
 h4{
