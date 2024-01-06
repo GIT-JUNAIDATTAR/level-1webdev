@@ -74,9 +74,10 @@ padding-left: 8px;
     text-align: center;
 }
 
-.signin :hover{
+.signin:hover{
     background-color: #ffffff; 
     color: #000000;
+    cursor: pointer;
 }
 
 /* main content */
