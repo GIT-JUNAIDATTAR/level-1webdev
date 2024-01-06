@@ -221,9 +221,28 @@ p{
     height: 70vh;
     color: #dadbf1;
     background-color: #000000;
-    grid-template-columns: 4,1fr;
-    grid-template-rows: 4,1fr;
+    grid-template-columns: 5,1fr;
+    grid-template-rows: 2,1fr;
     grid-template-areas: 
-    'a b c d '
-    '. . . e';
+    'a b c d .'
+    '. . . . e';
+}
+.f-a{
+    grid-area: a;
+}
+.f-b{
+    grid-area: b;
+}
+.f-c{
+    grid-area: c;
+}
+.f-d{
+    grid-area: d;
+}
+.f-e{
+    grid-area: e;
+}
+
+.footer-logo{
+    height: 35px;
 }
