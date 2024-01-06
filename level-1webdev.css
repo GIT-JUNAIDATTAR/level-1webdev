@@ -218,10 +218,12 @@ p{
 
 .footer{
     display: grid;
-    height: auto;
+    height: 70vh;
     color: #dadbf1;
     background-color: #000000;
     grid-template-columns: 4,1fr;
+    grid-template-rows: 4,1fr;
     grid-template-areas: 
-    'a b c d';
+    'a b c d '
+    '. . . e';
 }
