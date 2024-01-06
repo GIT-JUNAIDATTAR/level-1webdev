@@ -67,7 +67,6 @@ padding-left: 8px;
     padding: 10px;
     width: 22vh;
     background-color:#4C5FD5;
-    background-color: red;
     color: #fff;
     font-family: bold;
     border-radius: 7px;
@@ -76,7 +75,7 @@ padding-left: 8px;
 }
 
 .signin :hover{
-    background-color: #ffffff;
+    background-color: #ffffff; 
     color: #000000;
 }
 
