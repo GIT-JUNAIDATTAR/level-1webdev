@@ -364,7 +364,8 @@ li{
 
     .content-div{
         display: grid;
-        gap: none;
+        gap: 4rem;
+        padding: 5rem;
         grid-template-columns: 1,1fr;
         grid-template-rows: 6,1fr;
         grid-template-areas: 
@@ -400,6 +401,9 @@ li{
     }
     .div-abstract-support{
         grid-area: f;
+
+    }
+    .div-list-img{
         padding: 0;
     }
 }
