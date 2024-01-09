@@ -191,7 +191,7 @@ padding-left: 8px;
 }
 
 .div-list-img{
-    /* height: 100px; */
+    
      display:flex;
      margin-bottom: 60px;
 }
@@ -327,12 +327,35 @@ li{
 }
 
 .content-div{
-    gap: 10vh;
+    gap: 3rem;
 }
-.div-manage-your-account{
-    padding-top: 40px;
+.manage-account-img{
+    padding-bottom: 6rem;
 }
-.content-img{
-    padding-bottom: 2vh;
+
+.using-abstract{
+    padding-bottom: 6rem;
+}
+
+.using-abstract-img{
+    padding-bottom: 3rem;
+}
+
+.manage-org-team-project-img{
+    padding-bottom: 7rem;
+}
+
+.div-manage-billing{
+    padding-bottom: 14rem;
+}
+.authanticate-img{
+    padding-bottom: 3rem;
+}
+
+.div-abstract-support{
+    padding-bottom: 2.6rem;
+}
+.abstract-support-img{
+    padding-bottom: 2rem;
 }
 }
