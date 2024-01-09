@@ -359,3 +359,47 @@ li{
     padding-bottom: 2rem;
 }
 }
+
+@media(max-width:760px){
+
+    .content-div{
+        display: grid;
+        gap: none;
+        grid-template-columns: 1,1fr;
+        grid-template-rows: 6,1fr;
+        grid-template-areas: 
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f';
+     
+    }
+
+    .using-abstract{
+        grid-area: a;
+        padding: 0;
+    }
+
+    .div-manage-your-account{
+        grid-area: b;
+        padding: 0;
+    }
+    .div-manage-org-team-projects{
+        grid-area: c;
+        padding: 0;
+    }
+    .div-manage-billing{
+        grid-area: d;
+        padding: 0;
+    }
+    .div-authanticate{
+        grid-area: e;
+        padding: 0;
+    }
+    .div-abstract-support{
+        grid-area: f;
+        padding: 0;
+    }
+}
