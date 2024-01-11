@@ -307,7 +307,7 @@ li{
         grid-template-areas: 
         'a . . . b .'
         'c . . . d .'
-        '. . . . . e';
+        '. . . . e e';
     }
     
 .f-a{
@@ -364,7 +364,7 @@ li{
 
     .content-div{
         display: grid;
-        gap: 4rem;
+        gap: 5rem;
         padding: 5rem;
         grid-template-columns: 1,1fr;
         grid-template-rows: 6,1fr;
@@ -377,6 +377,7 @@ li{
         'f';
      
     }
+    
 
     .using-abstract{
         grid-area: a;
