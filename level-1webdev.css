@@ -362,6 +362,14 @@ li{
 
 @media(max-width:760px){
 
+    .div-nav{
+        display: flex;
+        justify-content:space-between;
+    }
+    .nav-sec-1{
+        margin-left: 15px;
+    }
+
     .content-div{
         display: grid;
         gap: 5rem;
@@ -407,4 +415,107 @@ li{
     .div-list-img{
         padding: 0;
     }
+
+    .input-img{
+        height: 62px;
+        width: 87%;
+    }
+   .input{
+    width: 100%;
+   } 
+   .hero-h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 5%;
+   }
+
+   .arrow-img{
+    margin: 0;
+   }
+   
+}
+
+@media(max-width:600px){
+
+    .div-nav{
+        display: flex;
+        justify-content:space-between;
+    }
+    .nav-sec-1{
+        margin-left: 15px;
+    }
+
+    .content-div{
+        display: grid;
+        gap: 5rem;
+        padding: 5rem;
+        grid-template-columns: 1,1fr;
+        grid-template-rows: 6,1fr;
+        grid-template-areas: 
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f';
+     
+    }
+    
+
+    .using-abstract{
+        grid-area: a;
+    
+    }
+
+    .div-manage-your-account{
+        grid-area: b;
+    
+    }
+    .div-manage-org-team-projects{
+        grid-area: c;
+    
+    }
+    .div-manage-billing{
+        grid-area: d;
+    
+    }
+    .div-authanticate{
+        grid-area: e;
+    
+    }
+    .div-abstract-support{
+        grid-area: f;
+
+    }
+
+
+    .footer{
+        height: auto;
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 6,1fr;
+        grid-template-rows: 3, 1fr;
+        grid-template-areas: 
+        'a . . . b .'
+        'c . . . d .'
+        'e e e e . .';
+    }
+    
+.f-a{
+    grid-area: a;
+}
+.f-b{
+    grid-area: b;
+}
+.f-c{
+    grid-area: c;
+}
+.f-d{
+    grid-area: d;
+}
+.f-e{
+    grid-area: e;
+}
+
 }
