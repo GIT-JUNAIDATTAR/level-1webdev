@@ -456,11 +456,31 @@ li{
     .nav-sec-1{
         margin-left: 15px;
     }
+    .div-list-img{
+
+        height:4rem;
+    }
+
+    .manage-org-team-project-img{
+        height: 7rem;
+    }
+
+    h4{
+        font-size:25px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+    }
 
     .content-div{
         display: grid;
         gap: 5rem;
-        padding: 5rem;
+        padding: 10rem;
         grid-template-columns: 1,1fr;
         grid-template-rows: 6,1fr;
         grid-template-areas: 
