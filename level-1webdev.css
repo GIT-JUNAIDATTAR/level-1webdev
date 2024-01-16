@@ -117,6 +117,12 @@ padding-left: 8px;
     
 }
 
+.input-img:hover{
+
+    border: 1px solid #4C5FD5;
+    box-shadow: #4C5FD5;
+}
+
 
 .input{
     border: none;
@@ -125,6 +131,11 @@ padding-left: 8px;
    font-size: 20px;
    padding-left: 15px;
 }
+
+input:focus{
+outline: none;    
+}
+
 
 .arrow-img{
     width: 4vh;
