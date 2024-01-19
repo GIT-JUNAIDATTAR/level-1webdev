@@ -456,15 +456,32 @@ li{
     .nav-sec-1{
         margin-left: 15px;
     }
-    .div-list-img{
-
-        height:4rem;
+    .using-abstract-img{
+        height: 4.3rem;
+        padding-bottom: 2rem;
     }
-
+    .manage-account-img{
+        height: 4rem;
+        padding-bottom: 3rem;
+    }
     .manage-org-team-project-img{
         height: 7rem;
+        padding-bottom: 1rem;
     }
-
+    
+    .manage-billing-img{
+        height: 4rem;
+        padding-bottom: 1rem;
+    }
+    
+    .authanticate-img{
+        height:4rem;
+        padding-bottom: 2rem;
+    }
+    .abstract-support-img{
+        height: 5.2rem;
+        padding-bottom: 2.9rem;
+    }
     h4{
         font-size:25px;
         font-weight: 700;
@@ -479,7 +496,7 @@ li{
 
     .content-div{
         display: grid;
-        gap: 5rem;
+        gap: 6rem;
         padding: 10rem;
         grid-template-columns: 1,1fr;
         grid-template-rows: 6,1fr;
@@ -490,12 +507,12 @@ li{
         'd'
         'e'
         'f';
-     
     }
     
 
     .using-abstract{
         grid-area: a;
+        margin-top: 7rem;
     
     }
 
